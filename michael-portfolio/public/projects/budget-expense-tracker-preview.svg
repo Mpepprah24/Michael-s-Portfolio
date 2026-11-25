@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Budget and Expense Tracker terminal preview</title>
+  <desc id="description">Illustrative terminal session showing the Java budget tracker's menu, adding a food expense, and displaying the remaining budget.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17212b"/>
+      <stop offset="1" stop-color="#090e14"/>
+    </linearGradient>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#273847"/>
+      <stop offset="1" stop-color="#17232e"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="url(#background)"/>
+  <circle cx="1020" cy="145" r="220" fill="#6ec7a8" opacity=".06"/>
+  <circle cx="165" cy="665" r="265" fill="#6ec7a8" opacity=".045"/>
+  <g filter="url(#shadow)">
+    <rect x="105" y="95" width="990" height="570" rx="22" fill="#10171e" stroke="#71878a" stroke-opacity=".38"/>
+    <path d="M127 95h946a22 22 0 0 1 22 22v52H105v-52a22 22 0 0 1 22-22Z" fill="url(#header)"/>
+    <circle cx="145" cy="132" r="7" fill="#ff766e"/>
+    <circle cx="171" cy="132" r="7" fill="#f2c56b"/>
+    <circle cx="197" cy="132" r="7" fill="#72cf9b"/>
+    <text x="600" y="138" fill="#c6d1d8" font-family="Segoe UI, Arial, sans-serif" font-size="17" text-anchor="middle" letter-spacing="2">BUDGET TRACKER / SAMPLE SESSION</text>
+    <text x="148" y="220" fill="#85d7b3" font-family="Consolas, Menlo, monospace" font-size="24" font-weight="700">=== Budget Tracker ===</text>
+    <text x="148" y="270" fill="#d4dfe2" font-family="Consolas, Menlo, monospace" font-size="22">1. Add Expense</text>
+    <text x="148" y="309" fill="#d4dfe2" font-family="Consolas, Menlo, monospace" font-size="22">2. View Summary</text>
+    <text x="148" y="348" fill="#d4dfe2" font-family="Consolas, Menlo, monospace" font-size="22">3. Exit</text>
+    <text x="148" y="397" fill="#d4dfe2" font-family="Consolas, Menlo, monospace" font-size="21">Choose an option: <tspan fill="#f1c876">1</tspan></text>
+    <text x="148" y="438" fill="#d4dfe2" font-family="Consolas, Menlo, monospace" font-size="21">Expense name: <tspan fill="#f1c876">Groceries</tspan></text>
+    <text x="148" y="479" fill="#d4dfe2" font-family="Consolas, Menlo, monospace" font-size="21">Amount: <tspan fill="#f1c876">68.45</tspan></text>
+    <text x="148" y="520" fill="#d4dfe2" font-family="Consolas, Menlo, monospace" font-size="21">Category (FOOD, RENT, FUN, OTHER): <tspan fill="#f1c876">FOOD</tspan></text>
+    <text x="148" y="561" fill="#85d7b3" font-family="Consolas, Menlo, monospace" font-size="21">Expense added.</text>
+    <path d="M148 586h895" stroke="#52636b" stroke-opacity=".5"/>
+    <text x="148" y="621" fill="#d4dfe2" font-family="Consolas, Menlo, monospace" font-size="19">Total spent: <tspan fill="#85d7b3">$68.45</tspan><tspan dx="38">Remaining budget:</tspan><tspan fill="#85d7b3"> $931.55</tspan></text>
+  </g>
+  <text x="105" y="711" fill="#9baeb3" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="2">ILLUSTRATIVE PREVIEW BASED ON THE REPOSITORY'S CONSOLE FLOW</text>
+</svg>
